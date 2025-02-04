@@ -1,0 +1,25 @@
+
+message = "Hello, this is a simple Python example!"
+print(message)  # Prints: Hello, this is a simple Python example!
+
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")  # Adds "orange" to the list
+print(fruits)  # Prints: ['apple', 'banana', 'cherry', 'orange']
+
+fruits.pop()  # Removes the last element ("orange")
+print(fruits)  # Prints: ['apple', 'banana', 'cherry']
+print(fruits[1])  # Prints the second element: 'banana'
+
+coordinates = (10, 20, 30)
+print(coordinates)  # Prints: (10, 20, 30)
+print(coordinates[0])  # Prints: 10
+
+person = {"name": "Alice", "age": 25, "city": "Wonderland"}
+print(person)  # Prints: {'name': 'Alice', 'age': 25, 'city': 'Wonderland'}
+
+print(person["name"])  # Prints: Alice
+
+person["age"] = 26  # Updates Alice's age
+person["job"] = "Adventurer"  # Adds a new key-value pair
+
+print(person)  # Prints: {'name': 'Alice', 'age': 26, 'city': 'Wonderland', 'job': 'Adventurer'}
